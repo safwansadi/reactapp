@@ -2,7 +2,7 @@ import React ,{ Component} from 'react';
 import { Card, CardImg, CardImgOverlay, CardText, CardBody,
     CardTitle } from 'reactstrap';
 
-    class Dishdetail extends Component{
+    class DishDetail extends Component{
         constructor(props){
             super(props);
             this.state={
@@ -94,4 +94,4 @@ import { Card, CardImg, CardImgOverlay, CardText, CardBody,
 
     }
     }
-    export default Dishdetail;
+    export default DishDetail;
